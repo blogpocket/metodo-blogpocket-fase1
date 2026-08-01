@@ -23,8 +23,16 @@ Loginizer es opcional. Si el hosting lo trae puesto, la skill lo quita.
 
 ## Instalación
 
-Descarga `metodo-blogpocket-fase1.skill`, adjúntalo a una conversación en Claude y pulsa
-**Save skill** en la tarjeta del archivo.
+Requisito previo: en Claude, **Configuración → Capacidades**, con la ejecución de código
+y creación de archivos activada. La carga de habilidades propias necesita un plan de pago
+(Pro, Max, Team o Enterprise).
+
+1. Descarga `metodo-blogpocket-fase1.zip` de la última versión. No lo descomprimas.
+2. En Claude, abre **Personalizar → Habilidades**.
+3. Pulsa el botón **+** y luego **Crear habilidad**.
+4. Sube el ZIP. La habilidad aparece en tu lista, ya activada.
+
+En una conversación nueva, la frase de disparo basta. No hace falta adjuntar nada.
 
 ## Documentación
 
@@ -55,3 +63,4 @@ Beacon ni GTmetrix, que son herramientas externas.
 ---
 
 Antonio Cambronero · [Blogpocket](https://www.blogpocket.com)
+
