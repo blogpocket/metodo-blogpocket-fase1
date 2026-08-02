@@ -105,3 +105,19 @@ aparece, es que faltó la segunda llamada.
 Está bloqueado por diseño en WPVibe y no se puede negociar desde el chat. Esas dos cosas
 las hace la persona desde el escritorio de WordPress. Ninguna de las dos hace falta para
 la fase 1.
+
+## Se agota la cuota diaria de WPVibe a mitad de ejecución
+
+**Síntoma.** Las llamadas empiezan a devolver un aviso de límite de uso del plan
+gratuito, con una hora estimada de reapertura.
+
+**Qué hacer.** Parar de reintentar, porque no devuelve nada distinto hasta esa hora.
+Decir en qué paso exacto se ha quedado, qué queda por hacer y que el sitio está estable.
+Retomar cuando la persona avise.
+
+Una fase 1 completa con sus cuatro mediciones cabe justo en la cuota diaria del plan
+gratuito, así que el corte es probable si ese día ya se había usado la conexión para otra
+cosa. No es un fallo del sitio ni del método.
+
+La hora estimada de reapertura puede recalcularse entre un aviso y otro. Eso no significa
+que reintentar desplace la ventana.
