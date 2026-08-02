@@ -9,6 +9,12 @@ Una frase basta:
 
 > Construye en midominio.com un sitio web inicial optimizado con el Método Blogpocket.
 
+## Descarga
+
+**[⬇ metodo-blogpocket-fase1.zip](https://github.com/blogpocket/metodo-blogpocket-fase1/releases/latest/download/metodo-blogpocket-fase1.zip)** — última versión.
+
+No lo descomprimas: se sube tal cual.
+
 ## Antes de usarla
 
 - WordPress instalado, con un tema de bloques activo (del estilo de Twenty Twenty-Five).
@@ -21,13 +27,17 @@ Una frase basta:
 
 Loginizer es opcional. Si el hosting lo trae puesto, la skill lo quita.
 
+Una ejecución completa, con sus cuatro mediciones, consume casi todo el límite diario del
+plan gratuito de WPVibe. Si ese día ya has usado la conexión para otra cosa, es probable
+que se corte a mitad; la skill se detiene sin dejar nada inconsistente y retoma después.
+
 ## Instalación
 
 Requisito previo: en Claude, **Configuración → Capacidades**, con la ejecución de código
 y creación de archivos activada. La carga de habilidades propias necesita un plan de pago
 (Pro, Max, Team o Enterprise).
 
-1. Descarga `metodo-blogpocket-fase1.zip` de la última versión. No lo descomprimas.
+1. Descarga el ZIP del enlace de arriba.
 2. En Claude, abre **Personalizar → Habilidades**.
 3. Pulsa el botón **+** y luego **Crear habilidad**.
 4. Sube el ZIP. La habilidad aparece en tu lista, ya activada.
@@ -36,9 +46,9 @@ En una conversación nueva, la frase de disparo basta. No hace falta adjuntar na
 
 ## Documentación
 
-`guia-skill-fase1.pdf` cubre la instalación, el uso, lo que la skill pide por el camino,
-sus límites conocidos y un plan de pruebas de cinco casos para comprobarla antes de
-ponerla en manos de otras personas.
+[`guia-skill-fase1.pdf`](guia-skill-fase1.pdf) cubre la instalación, el uso, lo que la
+skill pide por el camino, sus límites conocidos y un plan de pruebas de cinco casos para
+comprobarla antes de ponerla en manos de otras personas.
 
 El método completo, con la fase 1 documentada paso a paso y medida sobre un sitio real,
 está en el manual del Método Blogpocket.
@@ -53,6 +63,9 @@ metodo-blogpocket-fase1/
     ├── incidencias.md          los fallos conocidos
     └── metodo.md               el método en corto
 ```
+
+Esa carpeta está publicada aquí para que puedas leerla o adaptarla. Para instalarla, usa
+el ZIP de la release.
 
 ## Qué no hace
 
