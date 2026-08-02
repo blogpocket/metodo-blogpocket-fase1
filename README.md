@@ -63,4 +63,3 @@ Beacon ni GTmetrix, que son herramientas externas.
 ---
 
 Antonio Cambronero · [Blogpocket](https://www.blogpocket.com)
-
