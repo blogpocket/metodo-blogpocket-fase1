@@ -77,13 +77,16 @@ lo primero que probar.
 **Síntoma.** La opción `sg_security_wp_remove_version` vale 1, la caché está purgada, y
 la portada sigue emitiendo `<meta name="generator" content="WordPress ...">`.
 
-**Causa probable.** Desajuste entre la versión de WordPress del sitio y la
-compatibilidad declarada del plugin — se vio con WordPress 7.1-beta4 y un plugin
-declarado compatible hasta la 7.0.2.
+**Causa probable.** Una respuesta cacheada anterior a la activación del plugin, o un
+desajuste entre la versión de WordPress del sitio y la compatibilidad declarada del
+plugin. Se vio una vez con WordPress 7.1-beta4 y un plugin declarado compatible hasta la
+7.0.2, y en una ejecución posterior sobre el mismo sitio y las mismas versiones la
+protección sí funcionó, así que la primera hipótesis es la más probable.
 
-**Qué hacer.** No pelearse con ello. Anotarlo en el informe como protección que no
-surte efecto, y sugerir revisarlo cuando el sitio salga del canal de desarrollo o el
-plugin se actualice.
+**Qué hacer.** Purgar la caché y volver a mirar el HTML antes de dar nada por sentado. Si
+persiste, anotarlo en el informe como protección que no surte efecto y sugerir revisarlo
+cuando el plugin se actualice. Lo que no vale es fiarse de la casilla del panel en
+ninguno de los dos sentidos.
 
 ## XML-RPC devuelve 403 y no se sabe de quién es el mérito
 
