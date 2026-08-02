@@ -121,7 +121,7 @@ Calienta y mide.
 
 ## Cierre · El informe
 
-Es lo único largo que se escribe. Usa esta estructura:
+Es lo único largo que se escribe. Rellena esta plantilla **entera**, sin quitar ni añadir apartados:
 
 ```
 **[dominio] · fase 1 del Método Blogpocket completada.**
@@ -135,19 +135,32 @@ Es lo único largo que se escribe. Usa esta estructura:
 
 | Métrica | Antes | Después |
 |---|---|---|
-| LCP · CLS · TBT · FCP · Speed Index | | |
+| LCP | | |
+| CLS | | |
+| TBT | | |
+| FCP | | |
+| Speed Index | | |
 
 **El sitio, ahora:** [tema], [plugins], caché activa con /wp-json/ excluido,
 [n] protecciones de seguridad, fuentes del sistema.
 
-**Pendiente, y a propósito:** [lista corta]
+**Pendiente para la fase 2:**
+1. La meta description. Es lo que deja el SEO por debajo de 100 y necesita un
+   plugin de SEO, que no cabe en la regla de los dos plugins.
+2. La verificación en dos pasos. Es la medida que más sube la seguridad real
+   del acceso, y se activa cuando el sitio tenga dueño y rutina.
+3. La URL de acceso personalizada. Decisión de proyecto, no de método.
+4. La dirección de las notificaciones de Security Optimizer, que apunta a una
+   cuenta que en la mayoría de los hostings no existe. El valor lo eliges tú.
+[5. Cualquier protección que no haya surtido efecto, si la hay.]
+
+Las dos mediciones externas hay que lanzarlas a mano: digitalbeacon.co y
+gtmetrix.com. Si me pegas el resultado, lo comparo.
 ```
 
-En «pendiente» van **las cuatro, siempre**, aunque parezcan obvias: la meta description, la verificación en dos pasos, la URL de acceso personalizada y la dirección de las notificaciones. Añade cualquier protección que no haya surtido efecto.
+Los cuatro puntos numerados van **siempre**, aunque parezcan obvios y aunque el sitio no dé señales de necesitarlos: son las decisiones que la fase 1 aplaza a conciencia, y el informe es donde el lector se entera de que existen. No los sustituyas por otras observaciones. Si tienes algo más que contar —un plugin ajeno al método que se queda, contenido de la instalación sin tocar—, va después de la plantilla, no dentro.
 
 Y no nombres productos que el método no elige. La meta description «necesita un plugin de SEO», no un plugin concreto: quién lo instale lo decidirá en la fase 2. Lo mismo con cualquier otra herramienta que no esté en `references/metodo.md`.
-
-Cierra ofreciendo, en una sola frase, las dos mediciones externas que Claude no puede lanzar: `digitalbeacon.co` y `gtmetrix.com`. Si las traen pegadas, compáralas contra la línea base; si no, no insistas.
 
 ## Si algo se tuerce
 
