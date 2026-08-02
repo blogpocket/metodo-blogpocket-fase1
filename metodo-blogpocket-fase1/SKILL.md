@@ -50,7 +50,7 @@ navegador que tienes que confirmar tú.
 Esta skill desinstala un plugin, borra opciones y reescribe los estilos globales. Sobre un sitio en marcha eso se nota. No sigas sin permiso explícito si:
 
 - **Hay contenido propio.** Más allá de lo que trae la instalación (`Hello world!`, `Sample Page`, la página del hosting, el borrador de política de privacidad), el sitio está en uso. Dilo y pregunta.
-- **Hay plugins que no esperabas.** Lo previsto es Loginizer (opcional), WPVibe y como mucho WordPress Beta Tester. Cualquier otro: lístalo y pregunta si se queda.
+- **Hay plugins que no esperabas.** Lo previsto es WPVibe y, si el hosting lo trae, Loginizer. Cualquier otro —incluidos los que algunos hostings o modos de trabajo añaden por su cuenta— lístalo y pregunta si se queda antes de seguir. No des ninguno por bueno solo porque parezca inofensivo.
 - **El tema activo no es de bloques.** Sin entrada `wp_global_styles` el paso 3 no tiene dónde escribir. Hazlo sin el paso 3 o para, según lo que digan.
 - **Ya hay un plugin de caché distinto.** Dos cachés se pelean. Pregunta cuál se queda.
 - **`site_info` falla.** Casi siempre son credenciales caducadas, no el servidor. Ver `incidencias.md`.
@@ -143,7 +143,9 @@ Es lo único largo que se escribe. Usa esta estructura:
 **Pendiente, y a propósito:** [lista corta]
 ```
 
-En «pendiente» van siempre, si aplican: la meta description (es lo que deja el SEO por debajo de 100 y necesita un plugin de SEO, que es fase 2), la verificación en dos pasos, la URL de acceso personalizada, y cualquier protección que no haya surtido efecto.
+En «pendiente» van **las cuatro, siempre**, aunque parezcan obvias: la meta description, la verificación en dos pasos, la URL de acceso personalizada y la dirección de las notificaciones. Añade cualquier protección que no haya surtido efecto.
+
+Y no nombres productos que el método no elige. La meta description «necesita un plugin de SEO», no un plugin concreto: quién lo instale lo decidirá en la fase 2. Lo mismo con cualquier otra herramienta que no esté en `references/metodo.md`.
 
 Cierra ofreciendo, en una sola frase, las dos mediciones externas que Claude no puede lanzar: `digitalbeacon.co` y `gtmetrix.com`. Si las traen pegadas, compáralas contra la línea base; si no, no insistas.
 
