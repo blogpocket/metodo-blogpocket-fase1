@@ -51,7 +51,7 @@ skill pide por el camino, sus límites conocidos y un plan de pruebas de cinco c
 comprobarla antes de ponerla en manos de otras personas.
 
 El método completo, con la fase 1 documentada paso a paso y medida sobre un sitio real,
-está en el manual del Método Blogpocket.
+está en el [manual del Método Blogpocket](https://blogpocket.es/wp-content/uploads/2026/08/metodoblogpocketv1_1-1.pdf).
 
 ## Contenido
 
